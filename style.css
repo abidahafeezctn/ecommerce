@@ -1,0 +1,321 @@
+body{
+	background-color: #011627;
+	margin: 0 auto;
+	font-family: arial;
+}
+/*===================================================
+	Homepage Design
+====================================================*/
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+nav{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #ff9f1c;
+	border-bottom: 2px solid #fff;
+}
+.btn-admin-login{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 50px;
+	text-decoration: none;
+	float: left;
+}
+.btn-admin-login:hover{
+	color: #011627;
+}
+.menubar{
+	float: left;
+	margin: 0px;
+}
+.menubar > li{
+	list-style: none;
+	display: inline-block;
+	background-color: #fff;
+	float: left;
+}
+.menubar > li > a{
+	display: block;
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px 10px;
+	line-height: 50px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.menubar > li > a:hover{
+	background-color: #011627;
+	color: #fff; 
+	padding-bottom: 2px;
+}
+.cart-btn{
+	font-family: arial;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 50px;
+	float: right;
+}
+.cart-btn > img{
+	width: 20px;
+	height: auto;
+	padding-right: 5px;
+}
+.products-container{
+	padding-top: 55px;
+	margin-bottom: 50px;
+}
+.product{
+	width: 290px;
+	height: 280px;
+	background-color: #e71d36;
+	padding-bottom: 10px;
+	float: left;
+	display: block;
+	margin-left: 21px;
+	margin-bottom:20px; ;
+}
+.product > img{
+	width: 180px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding-top: 7px;
+}
+.product > .price{
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	margin: 10px 10px;
+}
+.product > .product-name{
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	margin: 10px 10px;
+}
+.btn-product-read-more{
+	width: 140px;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+	background-color: #011627;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+}
+.btn-product-read-more:hover{
+	background-color: #fff;
+	color: #000; 
+}
+.pagination{
+	display: table;
+	margin: 0 auto;
+}
+.pagination > li{
+	display: inline-block;
+	font-weight: bold;
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+.pagination > li > a{
+	color: #fff;
+	text-decoration: none;
+}
+.pagination > li > a:hover{
+	color: #000;
+}
+.seperator{
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+}
+
+/*==============================================================
+		Shopping Cart Design
+==============================================================*/
+.shoping-cart{
+	width: 100%;
+	background-color: #e71d36; 
+	color: #fff;
+	padding-bottom: 50px;
+}
+.shoping-cart > table{
+	margin-top: 50px;
+	border-collapse: collapse;
+}
+.shoping-cart table tr th{
+	text-align: left;
+	padding-top: 20px;
+	border-bottom: 1px solid #fff;
+	height: 30px;
+}
+.shoping-cart table tr td {
+	text-align: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #fff;
+
+}
+.td-product-img{
+	width: 120px;
+	padding: 10px;
+}
+.td-product-img-large{
+	width: 400px;
+	height: auto;
+	padding: 10px;
+}
+.product-img{
+	width: 110px;
+	height: auto;
+}
+.td-product-description{
+	width: 50%;
+	vertical-align: top;
+	text-align: justify !important;
+	padding-right: 10px;
+}
+.td-product-description > .preview-title{
+	vertical-align: top;
+	margin: 0px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.td-product-description > .title{
+	margin: 0px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.td-product-description > .description{
+	margin: 0px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.product-code{
+	margin: 0px;
+	font-size: 14px;
+	font-style: italic;
+}
+.quantity-input{
+	border: none;
+	border-radius: 10px;
+	width: 50px;
+	text-align: center;
+}
+/*==============================================================
+		login page
+=================================================================*/
+.admin-login{
+	width: 100%;
+	height: 400px;
+	padding-top: 200px;
+	background-color: #e71d36; 
+	color: #fff;
+	padding-bottom: 50px;
+}
+.login-input{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 20px;
+	border-radius: 20px;
+	font-size: 14px;
+	text-align: center;
+	border: none;
+}
+/*===============================================================
+		Update / delete buttons
+===============================================================*/
+.btn-product-edit{
+	width: auto;
+	height: 30px;
+	display: block;
+	background-color: #011627;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.btn-product-edit:hover{
+	background-color: #fff;
+	color: #000; 
+}
+/*===================================================================
+		Add new item
+===================================================================*/
+.login-input{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 600px;
+	height: 20px;
+	border-radius: 20px;
+	font-size: 14px;
+	text-align: center;
+	border: none;
+}
+.login-textarea{
+	height: auto;
+	text-align: left;
+	font-size: 12px;
+	border-radius: 2px;
+}
+.input-number {
+	width: 600px;
+	margin: 0 auto;
+}
+.input-number > input{
+	width: 70px;
+	border-radius: 10px;
+	padding-left: 5px;
+	border: none;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.btn-product-cancel{
+	width: auto;
+	height: 30px;
+	display: block;
+	background-color: #ff9f1c;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.btn-product-cancel:hover{
+	background-color: #fff;
+	color: #000; 
+}
+footer{
+	background-color: #e71d36;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	padding: 10px 0px;
+}
+.clear{
+	clear: both;
+}
